@@ -3,18 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>五子棋</title>
+    <title>保护我们共同的家园 - 动物保护</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>五子棋对战</h1>
-    <div id="game-info">
-        <p>当前玩家: <span id="current-player">黑棋</span></p>
-    </div>
-    <canvas id="chessboard" width="450" height="450"></canvas>
-    <div id="controls">
-        <button id="reset-button">重新开始</button>
-    </div>
+    <header>
+        <h1>保护我们共同的家园</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">关于动物保护</a></li>
+                <li><a href="#threats">面临的威胁</a></li>
+                <li><a href="#gallery">动物画廊</a></li>
+                <li><a href="#help">如何帮助</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>为什么动物保护至关重要？</h2>
+            <p>地球上的每一个生命都扮演着独特的角色，共同构成了我们复杂而美丽的生态系统。动物不仅仅是我们的邻居，它们更是维持环境平衡、保障地球健康的关键。保护动物，就是保护我们赖以生存的家园。</p>
+        </section>
+
+        <section id="threats">
+            <h2>动物们面临的严峻挑战</h2>
+            <div class="threat-item">
+                <h3>栖息地丧失</h3>
+                <p>随着城市扩张和农业发展，无数动物失去了它们的家园，生存空间被急剧压缩。</p>
+            </div>
+            <div class="threat-item">
+                <h3>气候变化</h3>
+                <p>全球变暖导致极端天气频发，许多物种无法适应剧变的环境，正濒临灭绝。</p>
+            </div>
+            <div class="threat-item">
+                <h3>非法盗猎</h3>
+                <p>为了获取象牙、犀牛角和皮毛，残忍的盗猎活动屡禁不止，将许多珍稀动物推向了灭绝的边缘。</p>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>需要我们守护的生命</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200.png?text=大熊猫" alt="大熊猫">
+                    <p>大熊猫</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200.png?text=雪豹" alt="雪豹">
+                    <p>雪豹</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200.png?text=绿海龟" alt="绿海龟">
+                    <p>绿海龟</p>
+                </div>
+                 <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200.png?text=东北虎" alt="东北虎">
+                    <p>东北虎</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="help">
+            <h2>您可以如何伸出援手？</h2>
+            <ul>
+                <li><b>减少消费：</b>选择可持续产品，减少对自然资源的消耗。</li>
+                <li><b>环保生活：</b>节约用水用电，减少碳排放，为减缓气候变化出一份力。</li>
+                <li><b>拒绝野味：</b>不购买、不食用任何野生动物制品。</li>
+                <li><b>宣传教育：</b>向身边的朋友和家人普及动物保护知识。</li>
+                <li><b>支持组织：</b>捐款或成为志愿者，支持专业的动物保护组织。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 动物保护组织. 版权所有.</p>
+        <p>加入我们，共同守护地球的未来！</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
